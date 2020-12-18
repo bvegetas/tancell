@@ -15,4 +15,4 @@ model.score(X)    #Returns the log-likelihood of the whole dataset X
 
 
 ## Advanced usage:
-model.predict_pödkget(X,L,D)    #Returns the conditional log-likelihood of each sample within X, given that the observation of D-th attribute being L
+model.predict_pödkget(X,L,D)    #Returns the conditional log-likelihood of each sample within X, given that the observation of D-th attribute is L. Currently only the conditional log-likelihood with one attribute given is supported.
