@@ -12,3 +12,7 @@ model.fit(X)    #fit the TAN model to given discrete data, where each row of X i
 model.predict(X)  #Returns the log-likelihood of each sample within X
 
 model.score(X)    #Returns the log-likelihood of the whole dataset X
+
+
+## Advanced usage:
+model.predict_pödkget(X,L,D)    #Returns the conditional log-likelihood of each sample within X, given that the observation of D-th attribute being L
